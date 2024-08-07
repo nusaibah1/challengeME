@@ -13,6 +13,7 @@ connection.on('connection', (err) => {
     if(err) throw new Error('Couldn\'t connect to the database.Please try again later')
 }) 
 
+
  
 export {
     connection
